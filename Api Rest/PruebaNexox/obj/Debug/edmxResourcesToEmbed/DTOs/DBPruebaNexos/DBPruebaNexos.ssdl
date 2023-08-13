@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebaNexosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TblAutoresLibros">
+    <Key>
+      <PropertyRef Name="IdAutorLibro" />
+    </Key>
+    <Property Name="IdAutorLibro" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdLibro" Type="int" Nullable="false" />
+    <Property Name="Nombres" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="Apellidos" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="CiudadProcedencia" Type="varchar" MaxLength="20" />
+    <Property Name="FechaNacimiento" Type="date" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaCreación" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TblConfigLimit">
+    <Key>
+      <PropertyRef Name="IdConfig" />
+    </Key>
+    <Property Name="IdConfig" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DescripcionConfig" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Limite" Type="int" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TblGeneros">
+    <Key>
+      <PropertyRef Name="IdGenero" />
+    </Key>
+    <Property Name="IdGenero" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreGenero" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TblLibros">
+    <Key>
+      <PropertyRef Name="IdLibro" />
+    </Key>
+    <Property Name="IdLibro" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Titulo" Type="varchar(max)" Nullable="false" />
+    <Property Name="Año" Type="int" Nullable="false" />
+    <Property Name="IdGenero" Type="int" Nullable="false" />
+    <Property Name="NumeroPaginas" Type="int" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_TblAutoresLibros_TblLibros">
+    <End Role="TblLibros" Type="Self.TblLibros" Multiplicity="1" />
+    <End Role="TblAutoresLibros" Type="Self.TblAutoresLibros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblLibros">
+        <PropertyRef Name="IdLibro" />
+      </Principal>
+      <Dependent Role="TblAutoresLibros">
+        <PropertyRef Name="IdLibro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblLibros_TblGeneros">
+    <End Role="TblGeneros" Type="Self.TblGeneros" Multiplicity="1" />
+    <End Role="TblLibros" Type="Self.TblLibros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblGeneros">
+        <PropertyRef Name="IdGenero" />
+      </Principal>
+      <Dependent Role="TblLibros">
+        <PropertyRef Name="IdGenero" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PruebaNexosModelStoreContainer">
+    <EntitySet Name="TblAutoresLibros" EntityType="Self.TblAutoresLibros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblConfigLimit" EntityType="Self.TblConfigLimit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblGeneros" EntityType="Self.TblGeneros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblLibros" EntityType="Self.TblLibros" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TblAutoresLibros_TblLibros" Association="Self.FK_TblAutoresLibros_TblLibros">
+      <End Role="TblLibros" EntitySet="TblLibros" />
+      <End Role="TblAutoresLibros" EntitySet="TblAutoresLibros" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblLibros_TblGeneros" Association="Self.FK_TblLibros_TblGeneros">
+      <End Role="TblGeneros" EntitySet="TblGeneros" />
+      <End Role="TblLibros" EntitySet="TblLibros" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

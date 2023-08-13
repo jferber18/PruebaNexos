@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PruebaNexosModelStoreContainer" CdmEntityContainer="PruebaNexosEntities">
+    <EntitySetMapping Name="TblAutoresLibros">
+      <EntityTypeMapping TypeName="PruebaNexosModel.TblAutoresLibros">
+        <MappingFragment StoreEntitySet="TblAutoresLibros">
+          <ScalarProperty Name="CiudadProcedencia" ColumnName="CiudadProcedencia" />
+          <ScalarProperty Name="IdAutorLibro" ColumnName="IdAutorLibro" />
+          <ScalarProperty Name="IdLibro" ColumnName="IdLibro" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FechaCreación" ColumnName="FechaCreación" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblConfigLimit">
+      <EntityTypeMapping TypeName="PruebaNexosModel.TblConfigLimit">
+        <MappingFragment StoreEntitySet="TblConfigLimit">
+          <ScalarProperty Name="IdConfig" ColumnName="IdConfig" />
+          <ScalarProperty Name="DescripcionConfig" ColumnName="DescripcionConfig" />
+          <ScalarProperty Name="Limite" ColumnName="Limite" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblGeneros">
+      <EntityTypeMapping TypeName="PruebaNexosModel.TblGeneros">
+        <MappingFragment StoreEntitySet="TblGeneros">
+          <ScalarProperty Name="IdGenero" ColumnName="IdGenero" />
+          <ScalarProperty Name="NombreGenero" ColumnName="NombreGenero" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblLibros">
+      <EntityTypeMapping TypeName="PruebaNexosModel.TblLibros">
+        <MappingFragment StoreEntitySet="TblLibros">
+          <ScalarProperty Name="IdLibro" ColumnName="IdLibro" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Año" ColumnName="Año" />
+          <ScalarProperty Name="IdGenero" ColumnName="IdGenero" />
+          <ScalarProperty Name="NumeroPaginas" ColumnName="NumeroPaginas" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

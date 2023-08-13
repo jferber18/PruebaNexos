@@ -1,0 +1,242 @@
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\PruebaNexox.dll.config
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\PruebaNexox.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\PruebaNexox.pdb
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\csc.exe
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\csc.exe.config
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\csc.rsp
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\csi.exe
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\csi.exe.config
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\csi.rsp
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.AppContext.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Console.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.IO.Compression.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Net.Http.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Net.Sockets.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.ValueTuple.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\vbc.exe
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\vbc.exe.config
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\vbc.rsp
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\VBCSCompiler.exe
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\BouncyCastle.Cryptography.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\EntityFramework.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\EntityFramework.SqlServer.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Enums.NET.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\MathNet.Numerics.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Newtonsoft.Json.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.Core.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OOXML.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OpenXml4Net.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OpenXmlFormats.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\SixLabors.Fonts.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\SixLabors.ImageSharp.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Buffers.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Memory.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Net.Http.Formatting.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Numerics.Vectors.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Security.AccessControl.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Security.Cryptography.Xml.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Security.Permissions.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Security.Principal.Windows.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Text.Encoding.CodePages.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Web.Http.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Web.Http.WebHost.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\BouncyCastle.Cryptography.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\EntityFramework.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\EntityFramework.SqlServer.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Enums.NET.pdb
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Enums.NET.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\ICSharpCode.SharpZipLib.pdb
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\ICSharpCode.SharpZipLib.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\MathNet.Numerics.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Newtonsoft.Json.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.Core.pdb
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.Core.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OOXML.pdb
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OOXML.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OpenXml4Net.pdb
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OpenXml4Net.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OpenXmlFormats.pdb
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OpenXmlFormats.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\NPOI.OpenXmlFormats.dll.config
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\SixLabors.Fonts.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\SixLabors.ImageSharp.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Buffers.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Memory.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Net.Http.Formatting.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Numerics.Vectors.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Security.AccessControl.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Security.Cryptography.Xml.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Security.Permissions.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Security.Principal.Windows.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Text.Encoding.CodePages.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Web.Http.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\System.Web.Http.WebHost.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\obj\Debug\PruebaNexos.csproj.AssemblyReference.cache
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\obj\Debug\PruebaNexos.csproj.CoreCompileInputs.cache
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\obj\Debug\PruebaNexos.csproj.CopyComplete
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\obj\Debug\PruebaNexox.dll
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\obj\Debug\PruebaNexox.pdb
+C:\Users\JOSUE\Desktop\PruebaNexox\PruebaNexox\bin\Servicios\LibrosController.cs
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Servicios\LibrosController.cs
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\PruebaNexox.dll.config
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\PruebaNexox.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\PruebaNexox.pdb
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\csc.exe
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\csc.exe.config
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\csc.rsp
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\csi.exe
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\csi.exe.config
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\csi.rsp
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.AppContext.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Console.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.IO.Compression.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Net.Http.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Net.Sockets.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.ValueTuple.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\vbc.exe
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\vbc.exe.config
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\vbc.rsp
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\VBCSCompiler.exe
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\BouncyCastle.Cryptography.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\EntityFramework.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\EntityFramework.SqlServer.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Enums.NET.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\MathNet.Numerics.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Newtonsoft.Json.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.Core.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OOXML.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OpenXml4Net.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OpenXmlFormats.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\SixLabors.Fonts.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\SixLabors.ImageSharp.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Buffers.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Memory.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Net.Http.Formatting.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Numerics.Vectors.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Security.AccessControl.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Security.Cryptography.Xml.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Security.Permissions.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Security.Principal.Windows.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Text.Encoding.CodePages.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Web.Http.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Web.Http.WebHost.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\BouncyCastle.Cryptography.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\EntityFramework.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\EntityFramework.SqlServer.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Enums.NET.pdb
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Enums.NET.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\ICSharpCode.SharpZipLib.pdb
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\ICSharpCode.SharpZipLib.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\MathNet.Numerics.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Newtonsoft.Json.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.Core.pdb
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.Core.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OOXML.pdb
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OOXML.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OpenXml4Net.pdb
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OpenXml4Net.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OpenXmlFormats.pdb
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OpenXmlFormats.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\NPOI.OpenXmlFormats.dll.config
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\SixLabors.Fonts.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\SixLabors.ImageSharp.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Buffers.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Memory.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Net.Http.Formatting.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Numerics.Vectors.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Security.AccessControl.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Security.Cryptography.Xml.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Security.Permissions.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Security.Principal.Windows.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Text.Encoding.CodePages.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Web.Http.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\System.Web.Http.WebHost.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\obj\Debug\PruebaNexos.csproj.AssemblyReference.cache
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\obj\Debug\PruebaNexos.csproj.CoreCompileInputs.cache
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\obj\Debug\PruebaNexos.csproj.CopyComplete
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\obj\Debug\PruebaNexox.dll
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\Api Rest\PruebaNexox\obj\Debug\PruebaNexox.pdb
