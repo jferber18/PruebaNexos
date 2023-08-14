@@ -79,8 +79,8 @@ C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros
 C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros\bin\es\System.Web.WebPages.resources.dll
 C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros\obj\Debug\FrontEndLibros.csproj.AssemblyReference.cache
 C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros\obj\Debug\FrontEndLibros.csproj.CoreCompileInputs.cache
 C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros\obj\Debug\FrontEndLibros.csproj.CopyComplete
 C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros\obj\Debug\FrontEndLibros.dll
 C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros\obj\Debug\FrontEndLibros.pdb
+C:\Users\JOSUE\Desktop\GitHub\PruebaNexos\FrontEnd\FrontEndLibros\FrontEndLibros\obj\Debug\FrontEndLibros.csproj.AssemblyReference.cache

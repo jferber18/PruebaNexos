@@ -79,7 +79,7 @@ namespace PruebaNexox.DTOs.Libros
                 foreach (TblLibros item in Lista)
                 {
                     object LisAut = item.TblAutoresLibros.Where(z => z.IdLibro == item.IdLibro).Select(x =>
-                         new { x.IdAutorLibro, x.IdLibro, x.Nombres, x.Apellidos, x.FechaNacimiento, x.Email }
+                         new { x.IdAutorLibro, x.IdLibro, x.Nombres, x.Apellidos, x.FechaNacimiento,x.CiudadProcedencia, x.Email }
                     ).ToList();
 
                     object Lislib = new { item.IdLibro, item.Titulo, item.Año, item.TblGeneros.NombreGenero, item.NumeroPaginas, LisAut };

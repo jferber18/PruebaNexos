@@ -1,0 +1,82 @@
+﻿@model List<FrontEndLibros.Models.ViewModel.LibroViewModel>
+@{
+    ViewBag.Title = "Registro de libros";
+}
+
+
+<div class="row">
+    <div class="col-md-12" style="text-align:center;">
+        <h2>@ViewBag.Title</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="jumbotron">
+            <table class="table table-responsive searchBar-filter">
+                @foreach (var item in Model)
+                {
+                    <tr class="searchBar-option">
+                        <td>
+                            <div class="col-md-12">
+                                <div class="col-md-3">
+                                    <label>Libro: </label>
+                                    <i>@item.Titulo</i>
+                                </div>
+                                <div class="col-md-3">
+                                    <label>Año: </label>
+                                    <i>@item.Año</i>
+                                </div>
+                                <div class="col-md-3">
+                                    <label>Género: </label>
+                                    <i>@item.NombreGenero</i>
+                                </div>
+                                <div class="col-md-3">
+                                    <label>N° Páginas: </label>
+                                    <i>@item.NumeroPaginas</i>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row autores" style="display: @(item.LisAut.Count == 0 ? "none" : "block");">
+                                    <div class="col-md-12" style="color: red;font-weight:bold">
+                                        <h5>Autores:</h5>
+                                    </div>
+                                    @foreach (var item2 in item.LisAut)
+                                    {
+                                        <div class="col-md-6">
+                                            <div class="col-md-12">
+                                                <label>Nombre: </label>
+                                                <i>@item2.Nombres @item2.Apellidos</i>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label>Fecha Nacimiento: </label>
+                                                <i>@( Convert.ToDateTime(item2.FechaNacimiento).ToString("dd/MM/yyyy"))</i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="col-md-12">
+                                                <label>Ciudad procedencia: </label>
+                                                <i>@item2.CiudadProcedencia</i>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label>Email: </label>
+                                                <i>@item2.Email</i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="display: @(item.LisAut.Count <= 1 ? "none" : "block");">
+                                            <hr style="border-top: 1px solid #ad9393 !important;" />
+                                        </div>
+
+                                    }
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
