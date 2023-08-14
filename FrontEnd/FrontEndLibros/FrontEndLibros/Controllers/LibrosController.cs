@@ -13,7 +13,8 @@ using Newtonsoft.Json;
 namespace FrontEndLibros.Controllers
 {
     public class LibrosController : Controller
-    {        
+    {
+        
         // GET: Libros
         public ActionResult Index()
         {
@@ -24,17 +25,18 @@ namespace FrontEndLibros.Controllers
 
         private static List<LibroViewModel> ListarLibros(int Id = 0)
         {
+            var urlListar = $"https://localhost:44348/api/libros/ListarLibro?IdLibro={Id}";
             ResponseViewModel responseViewModel = new ResponseViewModel();
             List<LibroViewModel> libroViewModel = new List<LibroViewModel>();
-            var url = $"https://localhost:44348/api/libros/ListarLibro?IdLibro={Id}";
-            var request = (HttpWebRequest)WebRequest.Create(url);
+            var request = (HttpWebRequest)WebRequest.Create(urlListar);
             request.Method = "GET";
             request.ContentType = "application/json";
             request.Accept = "application/json";
             try
             {
                 ServicePointManager.ServerCertificateValidationCallback = delegate
-                (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
+                (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+                { return true; };
                 using (WebResponse response = request.GetResponse())
                 {
                     using (Stream strReader = response.GetResponseStream())
@@ -53,48 +55,68 @@ namespace FrontEndLibros.Controllers
             catch (WebException ex)
             {
                 return libroViewModel;
-                // Handle error
             }
         }
 
-        //private static void ListarLibros(int Id = 0)
-        //{
-        //    JavaScriptSerializer serializer = new JavaScriptSerializer();
 
-        //    var url = $"http://localhost:8080/items";
-        //    var request = (HttpWebRequest)WebRequest.Create(url);
-        //    string json = $"{{\"data\":\"{data}\"}}";
-        //    request.Method = "POST";
-        //    request.ContentType = "application/json";
-        //    request.Accept = "application/json";
+        public ActionResult Nuevo()
+        {
+            ViewBag.ListaGeneros = ListarGeneros();
+            return View();
+        }
 
-        //    using (var streamWriter = new StreamWriter(request.GetRequestStream()))
-        //    {
-        //        streamWriter.Write(json);
-        //        streamWriter.Flush();
-        //        streamWriter.Close();
-        //    }
+        [HttpPost]
+        public ResponseViewModel Nuevo(CrearLibroViewModel Modelo)
+        {
 
-        //    try
-        //    {
-        //        using (WebResponse response = request.GetResponse())
-        //        {
-        //            using (Stream strReader = response.GetResponseStream())
-        //            {
-        //                if (strReader == null) return;
-        //                using (StreamReader objReader = new StreamReader(strReader))
-        //                {
-        //                    string responseBody = objReader.ReadToEnd();
-        //                    // Do something with responseBody
-        //                    Console.WriteLine(responseBody);
-        //                }
-        //            }
-        //        }
-        //    }
-        //    catch (WebException ex)
-        //    {
-        //        // Handle error
-        //    }
-        //}
+            ResponseViewModel responseViewModel = new ResponseViewModel();
+            List<LibroViewModel> libroViewModel = new List<LibroViewModel>();
+
+            var url = $"https://localhost:44348/api/libros/InsertarLibro";
+            var request = (HttpWebRequest)WebRequest.Create(url);
+            string json = JsonConvert.SerializeObject(Modelo);
+            request.Method = "POST";
+            request.ContentType = "application/json";
+            request.Accept = "application/json";
+
+            using (var streamWriter = new StreamWriter(request.GetRequestStream()))
+            {
+                streamWriter.Write(json);
+                streamWriter.Flush();
+                streamWriter.Close();
+            }
+
+            try
+            {
+                using (WebResponse response = request.GetResponse())
+                {
+                    using (Stream strReader = response.GetResponseStream())
+                    {
+                        if (strReader == null) return responseViewModel;
+                        using (StreamReader objReader = new StreamReader(strReader))
+                        {
+                            string responseBody = objReader.ReadToEnd();
+                            responseViewModel = JsonConvert.DeserializeObject<ResponseViewModel>(responseBody);
+                            return responseViewModel;
+                        }
+                    }
+                }
+            }
+            catch (WebException ex)
+            {
+                return responseViewModel;
+            }
+            
+        }
+
+        public List<GenerosViewModel> ListarGeneros()
+        {
+            List<GenerosViewModel> Lista = new List<GenerosViewModel>();
+            Lista.Add(new GenerosViewModel { Id = 1, Nombre = "Prueba1" });
+            Lista.Add(new GenerosViewModel { Id = 2, Nombre = "Prueba2" });
+            Lista.Add(new GenerosViewModel { Id = 4, Nombre = "Prueba3" });
+            return Lista;
+        }
+
     }
 }

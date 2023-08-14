@@ -4,19 +4,22 @@
 }
 
 
-<div class="row">
+<div class="row" style="margin-top: 6%;">
     <div class="col-md-12" style="text-align:center;">
         <h2>@ViewBag.Title</h2>
     </div>
 </div>
 <div class="row">
+    <div class="col-md-12" style="text-align:right;padding:5px">
+        <a href="~/Libros/Nuevo" class="btn btn-primary">Crear Libro</a>
+    </div>
     <div class="col-md-12">
         <div class="jumbotron">
             <table class="table table-responsive searchBar-filter">
                 @foreach (var item in Model)
                 {
                     <tr class="searchBar-option">
-                        <td>
+                        <td style="padding:33px">
                             <div class="col-md-12">
                                 <div class="col-md-3">
                                     <label>Libro: </label>

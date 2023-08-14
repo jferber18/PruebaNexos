@@ -8,7 +8,7 @@ namespace FrontEndLibros.Models.ViewModel
 {
     public class LibroViewModel
     {
-        public int? IdLibro { get; set; }
+        public int IdLibro { get; set; }
         public string Titulo { get; set; }
         public int Año { get; set; }
         public string NombreGenero { get; set; }

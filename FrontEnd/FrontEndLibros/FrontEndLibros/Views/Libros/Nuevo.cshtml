@@ -1,0 +1,43 @@
+﻿@model FrontEndLibros.Models.ViewModel.CrearLibroViewModel
+@{
+    ViewBag.Title = "Nuevo Libro";
+}
+
+<div class="row" style="margin-top: 6%;">
+    <div class="col-md-12">
+        <h2>@ViewBag.Title</h2>
+    </div>
+</div>
+
+@using (Html.BeginForm("Nuevo", "Libros", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-12" style="margin-top: 2%;">
+                @Html.LabelFor(x => x.Titulo)
+                @Html.TextBoxFor(x => x.Titulo, "", new { @class = "form-control input-sm" })
+                @Html.ValidationMessageFor(d => d.Titulo, null, new { @class = "warning" })
+            </div>
+            <div class="col-md-4" style="margin-top: 2%;">
+                @Html.LabelFor(x => x.Año)
+                @Html.TextBoxFor(x => x.Año, "", new { @class = "form-control input-sm", @type = "number" })
+            </div>
+            <div class="col-md-4" style="margin-top: 2%;">
+                @Html.LabelFor(x => x.NombreGenero)
+                @Html.DropDownListFor(x => x.NombreGenero, new SelectList(ViewBag.ListaGeneros, "Id", "Nombre", "Seleccione..."), new { @class = "form-control input-sm" })
+            </div>
+            <div class="col-md-4" style="margin-top: 2%;">
+                @Html.LabelFor(x => x.NumeroPaginas)
+                @Html.TextBoxFor(x => x.NumeroPaginas, "", new { @class = "form-control input-sm", @type = "number" })
+            </div>
+        </div>
+
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-12">
+            <input type="submit" name="Guardar" value="Guardar Libro" class="btn btn-success" style="width: 100%;" />
+        </div>
+    </div>
+}
+
