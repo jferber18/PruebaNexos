@@ -5,9 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
     <link href="~/Content/RegistroLibros.css" rel="stylesheet" />
-    <link href="~/Content/searchBar.css" rel="stylesheet" />
-    <script src="~/Scripts/searchBar.js"></script>
+    <script src="~/Scripts/Buscar.js"></script>
+
 
     <script type="text/javascript">
         UseDataTables();
@@ -46,6 +47,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryval")
     @RenderSection("scripts", required: false)
 </body>
 </html>

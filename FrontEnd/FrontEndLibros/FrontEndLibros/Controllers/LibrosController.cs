@@ -14,7 +14,7 @@ namespace FrontEndLibros.Controllers
 {
     public class LibrosController : Controller
     {
-        
+
         // GET: Libros
         public ActionResult Index()
         {
@@ -66,47 +66,53 @@ namespace FrontEndLibros.Controllers
         }
 
         [HttpPost]
-        public ResponseViewModel Nuevo(CrearLibroViewModel Modelo)
+        public ActionResult Nuevo(CrearLibroViewModel Modelo)
         {
 
-            ResponseViewModel responseViewModel = new ResponseViewModel();
-            List<LibroViewModel> libroViewModel = new List<LibroViewModel>();
-
-            var url = $"https://localhost:44348/api/libros/InsertarLibro";
-            var request = (HttpWebRequest)WebRequest.Create(url);
-            string json = JsonConvert.SerializeObject(Modelo);
-            request.Method = "POST";
-            request.ContentType = "application/json";
-            request.Accept = "application/json";
-
-            using (var streamWriter = new StreamWriter(request.GetRequestStream()))
+            if (ModelState.IsValid)
             {
-                streamWriter.Write(json);
-                streamWriter.Flush();
-                streamWriter.Close();
-            }
+                ResponseViewModel responseViewModel = new ResponseViewModel();
+                List<LibroViewModel> libroViewModel = new List<LibroViewModel>();
 
-            try
-            {
-                using (WebResponse response = request.GetResponse())
+                var url = $"https://localhost:44348/api/libros/InsertarLibro";
+                var request = (HttpWebRequest)WebRequest.Create(url);
+                string json = JsonConvert.SerializeObject(Modelo);
+                request.Method = "POST";
+                request.ContentType = "application/json";
+                request.Accept = "application/json";
+
+                using (var streamWriter = new StreamWriter(request.GetRequestStream()))
                 {
-                    using (Stream strReader = response.GetResponseStream())
+                    streamWriter.Write(json);
+                    streamWriter.Flush();
+                    streamWriter.Close();
+                }
+
+                try
+                {
+                    using (WebResponse response = request.GetResponse())
                     {
-                        if (strReader == null) return responseViewModel;
-                        using (StreamReader objReader = new StreamReader(strReader))
+                        using (Stream strReader = response.GetResponseStream())
                         {
-                            string responseBody = objReader.ReadToEnd();
-                            responseViewModel = JsonConvert.DeserializeObject<ResponseViewModel>(responseBody);
-                            return responseViewModel;
+                            if (strReader == null)  return View(Modelo);
+                            using (StreamReader objReader = new StreamReader(strReader))
+                            {
+                                string responseBody = objReader.ReadToEnd();
+                                responseViewModel = JsonConvert.DeserializeObject<ResponseViewModel>(responseBody);
+                                return View("/");
+                            }
                         }
                     }
                 }
+                catch (WebException ex)
+                {
+                    return View(Modelo);
+                }
             }
-            catch (WebException ex)
+            else
             {
-                return responseViewModel;
+                return View(Modelo);
             }
-            
         }
 
         public List<GenerosViewModel> ListarGeneros()

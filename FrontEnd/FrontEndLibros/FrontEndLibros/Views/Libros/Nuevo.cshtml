@@ -4,8 +4,11 @@
 }
 
 <div class="row" style="margin-top: 6%;">
-    <div class="col-md-12">
+    <div class="col-md-6">
         <h2>@ViewBag.Title</h2>
+    </div>
+    <div class="col-md-6" style="text-align:right">
+        <a id="btnAgregarAuor" class="btn btn-primary" href="~/Libros/Index">Volver</a>
     </div>
 </div>
 
@@ -16,19 +19,51 @@
             <div class="col-md-12" style="margin-top: 2%;">
                 @Html.LabelFor(x => x.Titulo)
                 @Html.TextBoxFor(x => x.Titulo, "", new { @class = "form-control input-sm" })
-                @Html.ValidationMessageFor(d => d.Titulo, null, new { @class = "warning" })
+                @Html.ValidationMessageFor(d => d.Titulo, null, new { @class = "red" })
             </div>
             <div class="col-md-4" style="margin-top: 2%;">
                 @Html.LabelFor(x => x.Año)
                 @Html.TextBoxFor(x => x.Año, "", new { @class = "form-control input-sm", @type = "number" })
+                @Html.ValidationMessageFor(d => d.Año, null, new { @class = "red" })
             </div>
             <div class="col-md-4" style="margin-top: 2%;">
                 @Html.LabelFor(x => x.NombreGenero)
-                @Html.DropDownListFor(x => x.NombreGenero, new SelectList(ViewBag.ListaGeneros, "Id", "Nombre", "Seleccione..."), new { @class = "form-control input-sm" })
+                @Html.DropDownListFor(x => x.NombreGenero, new SelectList(ViewBag.ListaGeneros, "Id", "Nombre", "Prueba1"), new { @class = "form-control input-sm" })
+                @Html.ValidationMessageFor(d => d.NombreGenero, null, new { @class = "red" })
             </div>
             <div class="col-md-4" style="margin-top: 2%;">
                 @Html.LabelFor(x => x.NumeroPaginas)
                 @Html.TextBoxFor(x => x.NumeroPaginas, "", new { @class = "form-control input-sm", @type = "number" })
+                @Html.ValidationMessageFor(d => d.NumeroPaginas, null, new { @class = "red" })
+            </div>
+
+            <div class="col-md-12">
+                <hr />
+                <h4>Autores:</h4>
+            </div>
+            <div class="col-md-6" style="margin-top: 2%;">
+                <label>Nombres:</label>
+                <input type="text" name="name" id="InputNombres" class="form-control input-sm" />
+            </div>
+            <div class="col-md-6" style="margin-top: 2%;">
+                <label>Apellidos:</label>
+                <input type="text" name="name" id="InputApellidos" class="form-control input-sm" />
+            </div>
+            <div class="col-md-6" style="margin-top: 2%;">
+                <label>Fecha de nacimiento:</label>
+                <input type="text" name="name" id="InputFechaNaci" class="form-control input-sm" />
+            </div>
+            <div class="col-md-6" style="margin-top: 2%;">
+                <label>Ciudad de procedencia:</label>
+                <input type="text" name="name" id="InputCiudadProc" class="form-control input-sm" />
+            </div>
+            <div class="col-md-12" style="margin-top: 2%;">
+                <label>Email:</label>
+                <input type="text" name="name" id="InputEmail" class="form-control input-sm" />
+            </div>
+            <div class="col-md-12" style="margin-top: 2%;">
+                <a id="btnAgregarAuor" class="btn btn-warning">Agregar autor</a>
+                @Html.ValidationMessageFor(d => d.LisAut, null, new { @class = "red" })
             </div>
         </div>
 

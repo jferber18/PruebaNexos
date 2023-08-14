@@ -14,8 +14,9 @@
         <a href="~/Libros/Nuevo" class="btn btn-primary">Crear Libro</a>
     </div>
     <div class="col-md-12">
-        <div class="jumbotron">
-            <table class="table table-responsive searchBar-filter">
+        <div class="jumbotron searchBar-filter">
+            <input type="text" id="InputBuscar" onkeyup="liveSearch()" placeholder="Buscar..." class="form-control">
+            <table class="table table-responsive" id="TblRegistros">
                 @foreach (var item in Model)
                 {
                     <tr class="searchBar-option">
