@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "56161fa2-5819-4c0e-9572-f178170475d7",
+		"name": "Prueba Nexus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4962354"
+	},
+	"item": [
+		{
+			"name": "InsertarLibros",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Titulo\" :\"Prueba de validaciones por campo\",\r\n    \"Año\" :2023,\r\n   \"IdGenero\" :1,\r\n    \"NumeroPaginas\" :250,\r\n    \"autores\" :[\r\n        {\r\n            \"Nombres\": \"Josue\",\r\n            \"Apellidos\": \"Feranández berdugo\",\r\n            \"FechaNacimiento\": \"20/05/2023\",\r\n            \"CiudadProcedencia\": \"Fundación,magdalena\",\r\n            \"Email\": \"jferber18@gamil.com\"\r\n        },\r\n        {\r\n            \"Nombres\": \"María camila\",\r\n            \"Apellidos\": \"Fernandez berdugo\",\r\n            \"FechaNacimiento\": \"22/05/2023\",\r\n            \"CiudadProcedencia\": \"Medellin,Antioquia\",\r\n            \"Email\": \"jferber18@gamil.com\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44348/api/libros/InsertarLibro",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44348",
+					"path": [
+						"api",
+						"libros",
+						"InsertarLibro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarLibros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44348/api/libros/ListarLibro?IdLibro=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44348",
+					"path": [
+						"api",
+						"libros",
+						"ListarLibro"
+					],
+					"query": [
+						{
+							"key": "IdLibro",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarGeneros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44348/api/libros/ListarGeneros",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44348",
+					"path": [
+						"api",
+						"libros",
+						"ListarGeneros"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
